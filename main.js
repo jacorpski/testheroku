@@ -28,3 +28,5 @@ pm2.connect(function() {
       
   });
 });
+
+console.log("instances: " + instances);
