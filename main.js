@@ -11,7 +11,7 @@ pm2.connect(function() {
     max_memory_restart : maxMemory + 'M',   // Auto restart if process taking more than XXmo
   }, function(err) {
     if (err) return console.error('Error while launching applications', err.stack || err);
-    console.log('PM2 and application has been succesfully started with ' + instances + " instance(s)");
+    console.log('PM2 and application has been succesfully started with ' + instances + " instance(s) where each have " + maxMemory + "MB ram");
     
     // Display logs in standard output 
     pm2.launchBus(function(err, bus) {
