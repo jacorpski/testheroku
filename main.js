@@ -5,7 +5,7 @@ var maxMemory = process.env.WEB_MEMORY || 512;    // " " "
 
 pm2.connect(function() {
   pm2.start({
-    script    : 'index.php.js',
+    script    : 'index.js',
     exec_mode : 'cluster',            // ----> https://github.com/Unitech/PM2/blob/master/ADVANCED_README.md#schema
     instances : instances,
     max_memory_restart : maxMemory + 'M',   // Auto restart if process taking more than XXmo
