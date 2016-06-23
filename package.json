@@ -1,0 +1,23 @@
+{
+  "name": "testheroku",
+  "version": "0.0.1",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jacorpski@github.com/jacorpski/testheroku.git"
+  },
+  "author": "Jacob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacorpski/testheroku/issues"
+  },
+  "homepage": "https://github.com/jacorpski/testheroku#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
