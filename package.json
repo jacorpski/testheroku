@@ -2,7 +2,7 @@
   "name": "testheroku",
   "version": "0.0.1",
   "description": "Test",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jacorpski/testheroku#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "pm2": "^1.1.3"
   }
 }
